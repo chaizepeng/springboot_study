@@ -9,7 +9,7 @@ public class HelloController {
 
 	@RequestMapping("/hello")
 	public String hello() {
-		ClassPathXmlApplicationContext
+//		ClassPathXmlApplicationContext
 		return "hello world boot";
 	}
 }
