@@ -15,6 +15,8 @@ import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import com.boot.properties.TestProperties;
+
 /**
  * 
  * @author chaizp
@@ -26,6 +28,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class WebConfiguration {
 
+//	@Bean
+//	public TestProperties getProperties() {
+//		return new TestProperties();
+//	}
+	
 	
 	@Bean
 	public RemoteIpFilter remoteIpFilter() {
